@@ -9,7 +9,7 @@ const port = 3000
 app.use(express.json()) 
 
 
-const flightRouter = require('./routers/flight') 
+const flightRouter = require('./src/routers/flight') 
 app.use(flightRouter) 
 
 
